@@ -295,6 +295,8 @@ mexFunction(int nout, mxArray *out[],
                 vl_sift_get_peak_thresh   (filt)) ;
       mexPrintf("vl_sift:   norm thresh           = %g\n",
                 vl_sift_get_norm_thresh   (filt)) ;
+      mexPrintf("vl_sift:   magnif                = %g\n",
+                vl_sift_get_magnif        (filt)) ;
       mexPrintf("vl_sift:   window size           = %g\n",
                 vl_sift_get_window_size   (filt)) ;
       mexPrintf("vl_sift:   float descriptor      = %d\n",
