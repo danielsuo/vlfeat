@@ -14,8 +14,7 @@
 # the empty string disables MATLAB support.
 
 MEX ?= mex
-#MATLAB_PATH ?= $(subst /bin/mex,,$(realpath $(shell which '$(MEX)')))
-MATLAB_PATH = /home/mylxiaoyi/MATLAB/R2012a
+MATLAB_PATH ?= $(subst /bin/mex,,$(realpath $(shell which '$(MEX)')))
 MATLAB_EXE ?= "$(MATLAB_PATH)/bin/matlab"
 MATLAB_VER ?= 0 # will be determined automatically
 
